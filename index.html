@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-SV" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Pequeño videojuego 3D de primera persona" />
+        <meta name="keywords" content="canvas,html,ufg,estudiantes,2026,jaime,jeovanny,cortez,flores" />
+        <meta name="author" content="Jaime Jeovanny Cortez Flores" />
+        <meta name="copyright" content="2026 JJCF" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jaime Jeovanny Cortez Flores, pequeño videojuego primera persona</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="blocker">
+            <div id="instructions">
+                <div id="playButton">
+                    ¡JUGAR!
+                    <p>
+                        ESC - Menu
+                        <br />
+                        Flechas W A S D - movimientos
+                        <br />
+                        Click izquierdo - Disparar
+                        <br />
+                        Barra espaceadora - Disparar
+                        <br />
+                        M - reproducir/pausar audio
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img id="crosshair" src="media/reticle.png" alt="Crosshair" />
+        <script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/controls/OrbitControls.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/controls/PointerLockControls.js"></script>
+        <script type="module" src="js/script.js"></script>
+    </body>
+</html>
